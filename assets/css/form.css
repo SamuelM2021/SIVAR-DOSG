@@ -1,0 +1,38 @@
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  input[type="text"], input[type="number"], input[type="email"], input[type="tel"], textarea {
+    border: 1px solid #ff6b81; /* Cambia el color del borde a un tono de rosa más rojizo */
+    padding: 5px;
+    border-radius: 5px;
+    font-size: 16px;
+    width: 100%;
+    max-width: 400px;
+  }
+  
+  input[type="submit"] {
+    border: 2px solid #ff6b81; /* Cambia el color del borde a un tono de rosa más rojizo */
+    padding: 10px 20px;
+    background-color: #fff;
+    color: #ff6b81; /* Cambia el color del texto del botón a un tono de rosa más rojizo */
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: #ff6b81; /* Cambia el color de fondo del botón a un tono de rosa más rojizo al pasar el cursor sobre él */
+    color: #fff; /* Cambia el color del texto del botón a blanco al pasar el cursor sobre él */
+  }
+  
+  /* Estilos para las etiquetas */
+  label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
